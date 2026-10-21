@@ -1,0 +1,54 @@
+# ==========================================
+# RouteWake Root Git Ignore
+# ==========================================
+
+# Operating System Files
+*.DS_Store
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# IDEs and Editors
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# Android & Gradle
+.gradle/
+build/
+**/build/
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+
+# Maven & Java
+backend/target/
+target/
+*.class
+*.jar
+!gradle-wrapper.jar
+!**/gradle-wrapper.jar
+*.war
+*.ear
+*.log
+
+# Keystores & Secrets
+*.keystore
+keystore.jks
+signing.properties
+secrets.properties
